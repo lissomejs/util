@@ -1,6 +1,6 @@
 {
     "name": "@lissome/util",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "dev": "vite --mode dev",
         "build": "vite build",
@@ -23,9 +23,12 @@
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
     },
-    "main": "src/index.ts",
-    "module": "src/index.ts",
+    "main": "lib/util.umd.js",
+    "module": "lib/util.es.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "types": "types/index.d.ts",
-    "jsnext:main": "src/index.ts",
+    "jsnext:main": "lib/util.es.js",
     "license": "MIT"
 }

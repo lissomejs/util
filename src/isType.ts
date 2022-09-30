@@ -17,7 +17,7 @@ export const isPlainObject = (val: unknown): val is Data =>
 
 export const isBoolean = (val: unknown): val is boolean => typeof val === 'boolean'
 
-export const isArray = (val: unknown): val is Array<any> => Array.isArray(val)
+export const isArray = <T = any>(val: unknown): val is Array<T> => Array.isArray(val)
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 export const isFunction = (val: unknown): val is Function =>

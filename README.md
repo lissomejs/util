@@ -2,7 +2,7 @@
 
 The Util library Lissome.js provides lots of utility functions in daily coding.
 
-It's writen by `TypeScript` which can be friendly used in IDE.
+It's written by `TypeScript` which can be friendly used in IDE.
 
 ## Installation
 

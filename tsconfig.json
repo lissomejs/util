@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        "declaration": true,
+        "declarationDir": ".",
+        "emitDeclarationOnly": true,
         "target": "esnext",
         "module": "esnext",
         "moduleResolution": "node",

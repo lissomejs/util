@@ -1,6 +1,6 @@
 {
     "name": "@lissome/util",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A util library written by TypeScript",
     "devDependencies": {
         "@commitlint/cli": "^12.0.1",
@@ -14,13 +14,15 @@
         "jest": "^28.1.0",
         "ts-jest": "^28.0.2",
         "typescript": "^4.1.3",
-        "vite": "^2.8.6"
+        "vite": "^2.8.6",
+        "vite-plugin-dts": "^1.6.4"
     },
     "engines": {
         "node": ">=12.2.0"
     },
     "files": [
-        "lib"
+        "lib",
+        "types"
     ],
     "keywords": [
         "util",
@@ -44,7 +46,12 @@
         "registry": "https://registry.npmjs.org",
         "access": "public"
     },
-    "types": "types/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lissomejs/util.git"
+    },
+    "types": "lib/index.d.ts",
     "jsnext:main": "lib/util.es.js",
-    "license": "MIT"
+    "license": "MIT",
+    "packageManager": "pnpm@7.3.0"
 }

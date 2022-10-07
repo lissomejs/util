@@ -37,6 +37,7 @@ npm install @lissome/util
 | `camelCase` | Converts string to camel case |
 | `pascalCase` | Converts string to pascal (big camel) case |
 | `snakeCase` | Converts string to snake case |
+| `kebabCase` | Converts string to kebab case |
 
 ### Object
 

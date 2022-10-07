@@ -38,3 +38,13 @@ export const snakeCase: Convertor = str => {
     return str.replace(/[A-Z]/g, str => `_${str.toLowerCase()}`)
 }
 
+/**
+ * 将驼峰式/大驼峰(帕斯卡)形式字符串转为中划线字符串
+ *
+ * @param   {String}  camelStr  输入的值，例如'camelStr'
+ *
+ * @return  {String}            转换后的值，'camel-str'
+ */
+export const kebabCase: Convertor = str => {
+    return str.replace(/^[A-Z]/, letter => letter.toLowerCase()).replace(/[A-Z]/g, str => `-${str.toLowerCase()}`)
+}

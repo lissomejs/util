@@ -37,6 +37,8 @@ export const isDefined = (val: unknown): val is Defined =>
 
 export const isFalse = (val: unknown): val is false => val === false
 
+export const isTrue = (val: unknown): val is true => val === true
+
 export const isString = (val: unknown): val is string =>
     typeof val === 'string'
 

@@ -50,7 +50,7 @@
         "type": "git",
         "url": "git+https://github.com/lissomejs/util.git"
     },
-    "types": "lib/index.d.ts",
+    "types": "lib/types/index.d.ts",
     "jsnext:main": "lib/util.es.js",
     "license": "MIT",
     "packageManager": "pnpm@7.3.0"

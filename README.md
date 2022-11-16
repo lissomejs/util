@@ -19,6 +19,7 @@ npm install @lissome/util
 | `isString` | Checks if `value` is `String` |
 | `isBoolean` | Checks if `value` is a `Boolean` value |
 | `isFalse` | Checks if `value` is `false` |
+| `isTrue` | Checks if `value` is `true` |
 | `isObject` | Checks if `value` is the language type of `Object`, not `Null` |
 | `isPlainObject` | Checks if `value` is a plain object |
 | `isEmptyObject` | Checks if `value` is an empty object, without `key/value` pairs |

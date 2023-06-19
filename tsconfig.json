@@ -1,18 +1,17 @@
 {
     "compilerOptions": {
-        "declaration": true,
-        "declarationDir": ".",
-        "emitDeclarationOnly": true,
         "target": "esnext",
         "module": "esnext",
+        "baseUrl": "./",
         "moduleResolution": "node",
         "strict": true,
         "jsx": "preserve",
+        "noImplicitAny": true,
         "sourceMap": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "lib": ["esnext", "dom"]
     },
-    "include": ["src/*.ts", "types/*.d.ts"],
+    "include": ["types/*.d.ts", "src/*.ts"],
     "exclude": ["node_modules"]
 }
